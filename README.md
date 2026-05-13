@@ -1,74 +1,137 @@
-# Amazon Product Page Clone
+# Amazon-Inspired Product Page Clone
 
-A mock Amazon product page built as part of a **Full Stack Development** course project. The page replicates the look and feel of a real Amazon product listing using only **HTML** and **CSS** — no JavaScript.
+A responsive, static product page built as part of a **Full Stack Development** course project.  
+The project recreates the structure and visual style of an Amazon-like product listing using only **HTML** and **CSS**, with no JavaScript.
 
-The featured product is a *Steampunk Hippo Figurine*, used to demonstrate a complete product detail page including image gallery, product info, buy box, related items, and footer.
+The featured product is a **Steampunk Hippo Figurine**, used to demonstrate a complete product detail page with an image gallery, product information, purchase section, related products, promotional content, and footer.
+
+> **Disclaimer:** This project is for educational purposes only. It is not affiliated with, endorsed by, or connected to Amazon.
+
+---
+
 
 
 ## Features
 
-- Fully static front-end built with pure HTML & CSS
-- **Interactive image gallery without JavaScript** — image switching is done with hidden radio buttons and CSS sibling selectors
-- Amazon-style top navigation bar with logo, location, search, language, account, and cart
-- Sub-navigation and promotional banner
+- Fully static front-end built with **HTML5** and **CSS3**
+- Interactive image gallery created without JavaScript
+- Image switching using hidden radio buttons and CSS selectors
+- Amazon-inspired navigation bar with:
+  - Logo area
+  - Delivery location
+  - Search bar
+  - Language selector
+  - Account section
+  - Orders area
+  - Cart icon
+- Sub-navigation menu and promotional banner
 - Breadcrumb navigation
-- Product detail layout: gallery, product info, and buy box side-by-side
-- Quantity dropdown, Add to Cart, Buy Now, and Add to List buttons
-- "Products related to this item" grid with star ratings, prices, and badges
-- "What other items do customers buy" grid
-- Full Amazon-style footer with multiple link columns and back-to-top button
-- **Responsive design** with breakpoints at 1100px and 720px
+- Product detail layout with:
+  - Product image gallery
+  - Product title and rating area
+  - Price and delivery information
+  - Buy box with quantity selector
+  - Add to Cart, Buy Now, and Add to List buttons
+- Related products section with ratings, prices, and badges
+- Additional customer recommendation grid
+- Full footer with multiple link columns
+- Responsive layout for desktop, tablet, and mobile screens
+
+---
 
 ## Technologies Used
 
-- HTML5 (semantic markup, SVG for the Amazon logo)
-- CSS3 (Flexbox, CSS Grid, media queries)
+- **HTML5**
+- **CSS3**
+- **Flexbox**
+- **CSS Grid**
+- **Media Queries**
+- **SVG** for logo styling
+
+---
 
 ## Project Structure
 
-```
+```text
 .
 ├── index.html         # Main HTML file
 ├── base.css           # Global reset and base styles
-├── header.css         # Top navigation, search, sub-nav, breadcrumb
-├── product.css        # Product page layout: gallery, info, buy box
-├── related.css        # Related products grids
-├── footer.css         # Site footer
-├── responsive.css     # Media queries for tablet and mobile
-├── hippo1.jpg         # Product images
-├── hippo2.jpg
-├── hippo3.jpg
-├── hippo4.jpg
-├── hippo5.jpg
-├── hippo6.jpg
-├── hippo7.jpg
-└── kindel.jpg         # Kindle promo banner image
+├── header.css         # Header, search bar, sub-navigation, and breadcrumb
+├── product.css        # Product gallery, product details, and buy box
+├── related.css        # Related products and recommendation sections
+├── footer.css         # Footer layout and links
+├── responsive.css     # Responsive styles for tablet and mobile screens
+├── hippo1.jpg         # Product image 1
+├── hippo2.jpg         # Product image 2
+├── hippo3.jpg         # Product image 3
+├── hippo4.jpg         # Product image 4
+├── hippo5.jpg         # Product image 5
+├── hippo6.jpg         # Product image 6
+├── hippo7.jpg         # Product image 7
+└── kindel.jpg         # Promotional banner image
 ```
 
-The CSS is split into multiple files by section, making the codebase easier to navigate and maintain.
+The CSS is separated into multiple files by page section. This keeps the project easier to read, edit, and maintain.
 
-## How to Run
+---
 
-No build step or server required — just open `index.html` in any modern browser:
+## How to Run the Project
+
+No build tools, packages, or local server are required.
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/karam979/Amazon-mock-website-Full-Stack-project-.git
-cd Amazon-mock-website-Full-Stack-project-
-# Then double-click index.html, or open it from your browser
 ```
+
+2. Open the project folder:
+
+```bash
+cd Amazon-mock-website-Full-Stack-project-
+```
+
+3. Open `index.html` directly in your browser.
+
+You can also run it using a local development server if you prefer, but it is not required.
+
+---
 
 ## What I Learned
 
-- Structuring a real-world UI with semantic HTML
-- Building complex layouts using CSS Grid and Flexbox
-- Creating interactive components (image gallery) using only CSS
-- Writing responsive styles with media queries
-- Organizing CSS across multiple files for maintainability
+Through this project, I practiced and improved my understanding of:
 
-## Course
+- Building a complete product page layout with semantic HTML
+- Creating complex page sections using Flexbox and CSS Grid
+- Designing a CSS-only interactive image gallery
+- Organizing styles across multiple CSS files
+- Creating responsive layouts with media queries
+- Reproducing a real-world e-commerce layout for educational practice
+- Paying attention to spacing, alignment, typography, and visual hierarchy
 
-Built as part of a **Full Stack Development** course — front-end module focusing on HTML & CSS fundamentals.
+---
+
+## Future Improvements
+
+Possible improvements for future versions:
+
+- Add JavaScript for dynamic cart behavior
+- Add product image zoom functionality
+- Create a working search input
+- Add product review interactions
+- Improve accessibility with more ARIA labels
+- Deploy the project using GitHub Pages
+
+---
+
+## Course Information
+
+This project was built as part of a **Full Stack Development** course, during the front-end module focused on HTML and CSS fundamentals.
+
+---
 
 ## Author
 
-**karam979** — [GitHub Profile](https://github.com/karam979)
+**karam979**  
+[GitHub Profile](https://github.com/karam979)
+
