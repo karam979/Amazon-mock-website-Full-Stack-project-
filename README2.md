@@ -4,9 +4,7 @@ A mock Amazon product page built as part of a **Full Stack Development** course 
 
 The featured product is a *Steampunk Hippo Figurine*, used to demonstrate a complete product detail page including image gallery, product info, buy box, related items, and footer.
 
-## Preview
 
-![Product Page Screenshot](screenshot.png)
 
 ## Features
 
